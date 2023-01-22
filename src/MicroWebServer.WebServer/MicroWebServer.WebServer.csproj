@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Rebex.Common">
+      <HintPath>..\..\..\..\Prgramer\netstandard2.1\Rebex.Common.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Rebex.Syslog">
+      <HintPath>..\..\..\..\Prgramer\netstandard2.1\Rebex.Syslog.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
